@@ -1,0 +1,269 @@
+h1 {
+  font-size: 48px;
+  color:#f5b60b;
+  -webkit-text-stroke: 2px rgb(18, 19, 19);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+div.box {
+  height: 50;
+  width: 100%;
+  background-color: #0099cc;
+  text-align: center;
+  position: static;
+  left: 0;
+  width: 100%;
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed; 
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 94%;
+  max-width: 1250px;
+
+    background-color: #49aca8;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: #738f70;
+          font-size: 12px;
+        }
+
+      
+      
+        .menubar {
+          font-size: 12px;
+          color: rgb(236, 11, 199);
+        }
+
+        
+  
+}
+
+#title {
+  text-align: center;
+}
+
+.menubar {
+  text-align: center;
+  padding: 25px;
+ 
+}
+
+.menubar a {
+  
+  font-size: 16px;
+  color: rgb(33, 10, 138);
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  }
+
+  .my {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+
+}
+
+.part1 {
+  
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+
+
+/* ~~~Page 2 Graphics css~~~*/
+
+.body2 {
+      background-image: url(img/graphic.jpg);
+      background-position: center center;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-size: cover; 
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(33, 163, 33);
+  width: 94%;
+  max-width: 1250px;
+}
+#down2 {
+  background-color: #dd7cf5;
+    
+    padding: 150px;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    opacity: 0.80;
+    border: 2px rgb(0, 4, 255);
+}
+
+
+div.down2 {
+    color: #dbd939;
+    text-align: left;
+    font-size: 16px;
+    padding: 35px;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    width: 100%;
+   
+ 
+}
+
+.menubar2 {
+  color: azure;
+  
+}
+
+.menubar2 a {
+  color: rgb(246, 247, 252);
+  
+}
+
+div.footer2 {
+  background-color: #eb5cdf;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  
+    
+ 
+
+}
+/* ~~~Page 3 Sports css~~~*/
+
+.body3 {
+  background-image: url(img/sports.jpg);
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed; 
+background-size: cover;
+padding-top: 10px;
+padding-left: 10%;
+padding-right: 10%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+font-size: 18px;
+width: 94%;
+max-width: 1250px;
+}
+
+
+
+div.footer3 {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  top: 93%;
+  width: 100%;
+  text-align: center;
+}
+
+/* ~~~Page 4 Hobbies css~~~*/
+
+.body4 {
+  background-image: url(img/travel.jpg);
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+background-size: cover; 
+padding-top: 10px;
+padding-left: 10%;
+padding-right: 5%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+font-size: 18px;
+color: rgb(214, 90, 245);
+width: 94%;
+max-width: 1250px;
+
+}
+
+div.down4 {
+  background-color: #f8f8f8;
+    color: #6e0a0a;
+    text-align: left;
+    font-size: 16px;
+    padding: 35px;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    opacity: 0.75;
+ 
+}
+
+
+.menubar4 {
+  color: #f50b46;
+  
+}
+
+.menubar4 a {
+  color: #f50b32;
+  
+}
+
+.down {
+padding-bottom: 50px;  
+  text-align: left;
+}
+
+  div.footer4 {
+    background-color: #bb6767;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    top: 93%;
+    width: 100%;
+    text-align: center;
+  }
